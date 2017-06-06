@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee    http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>CreaAttore</servlet-name>
+        <servlet-class>org.sakila.servlet.CreaAttore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreaAttore</servlet-name>
+        <url-pattern>/CreaAttore</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TabellaAttori</servlet-name>
+        <servlet-class>org.sakila.servlet.TabellaAttori</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TabellaAttori</servlet-name>
+        <url-pattern>/TabellaAttori</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EliminazioneAttore</servlet-name>
+        <servlet-class>org.sakila.servlet.EliminazioneAttore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EliminazioneAttore</servlet-name>
+        <url-pattern>/EliminazioneAttore</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ModificaAttore</servlet-name>
+        <servlet-class>org.sakila.servlet.ModificaAttore</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModificaAttore</servlet-name>
+        <url-pattern>/ModificaAttore</url-pattern>
+    </servlet-mapping>
+</web-app>
