@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Prima form</title>
+<title>Inserimento attore</title>
 </head>
 <body>
-	<h1>Prima form</h1>
+	<h1>Inserimento attore</h1>
 	<form action="CreaAttore" method="get">
 		Nome attore <input type="text" name="firstName" /><br/>
 		Cognome attore <input type="text" name="lastName"/><br/>

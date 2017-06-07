@@ -24,7 +24,7 @@ public class TabellaAttori extends HttpServlet {
 		List<ActorBean> l = ad.getList();
 		
 		pw.write("<table border='1'>");
-		pw.write("<tr><td>id</td><td>name</td><td>last name</td><td>last update</td></tr>");
+		pw.write("<thead><tr><td>id</td><td>name</td><td>last name</td><td>last update</td></tr></thead>");
 		for(ActorBean bean : l){
                     pw.write("<tr>");
                     pw.write("<td>" + bean.getActorId() + "</td>");
