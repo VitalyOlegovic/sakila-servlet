@@ -10,8 +10,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>Sakila_MySQL_JDBC</groupId>
-			<artifactId>Sakila_MySQL_JDBC</artifactId>
+			<groupId>org.sakila</groupId>
+			<artifactId>sakila-jdbc</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
