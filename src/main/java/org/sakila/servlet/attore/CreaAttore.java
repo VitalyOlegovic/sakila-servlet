@@ -1,4 +1,4 @@
-package org.sakila.servlet;
+package org.sakila.servlet.attore;
 
 import java.io.IOException;
 import java.io.PrintWriter;

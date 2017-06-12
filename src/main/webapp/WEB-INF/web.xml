@@ -3,15 +3,15 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>CreaAttore</servlet-name>
-        <servlet-class>org.sakila.servlet.CreaAttore</servlet-class>
+        <servlet-class>org.sakila.servlet.attore.CreaAttore</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CreaAttore</servlet-name>
-        <url-pattern>/CreaAttore</url-pattern>
+        <url-pattern>/attore/CreaAttore</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>TabellaAttori</servlet-name>
-        <servlet-class>org.sakila.servlet.TabellaAttori</servlet-class>
+        <servlet-class>org.sakila.servlet.attore.TabellaAttori</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TabellaAttori</servlet-name>
@@ -19,18 +19,18 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>EliminazioneAttore</servlet-name>
-        <servlet-class>org.sakila.servlet.EliminazioneAttore</servlet-class>
+        <servlet-class>org.sakila.servlet.attore.EliminazioneAttore</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EliminazioneAttore</servlet-name>
-        <url-pattern>/EliminazioneAttore</url-pattern>
+        <url-pattern>/attore/EliminazioneAttore</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>ModificaAttore</servlet-name>
-        <servlet-class>org.sakila.servlet.ModificaAttore</servlet-class>
+        <servlet-class>org.sakila.servlet.attore.ModificaAttore</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ModificaAttore</servlet-name>
-        <url-pattern>/ModificaAttore</url-pattern>
+        <url-pattern>/attore/ModificaAttore</url-pattern>
     </servlet-mapping>
 </web-app>
