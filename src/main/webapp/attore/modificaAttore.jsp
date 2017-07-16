@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-<title>Modifica attore</title>
+    <meta charset = "UTF-8">
+    <title>Modifica attore</title>
 </head>
 <body>
     <h1>Modifica attore</h1>
 	<form action="ModificaAttore" method="get">
-		<input type="hidden" name="id" value='<%=request.getParameter("actor_id")  %>' />
-		Nome attore <input type="text" name="firstName" /><br/>
-		Cognome attore <input type="text" name="lastName"/><br/>
-		<input type="submit" value="OK" /> <input type="reset" value="Reset" />
-		
+	    <fieldset>
+	        <legend>Dati attore</legend>
+            <input type="hidden" name="id" value='<%=request.getParameter("actor_id")  %>' />
+            <label>Nome attore</label>
+            <input type="text" name="firstName" /><br/>
+            <label>Cognome attore</label>
+            <input type="text" name="lastName"/><br/>
+            <input type="submit" value="OK" />
+            <input type="reset" value="Reset" />
+		</fieldset>
 	</form>
 </body>
 </html>

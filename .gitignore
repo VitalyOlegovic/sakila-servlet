@@ -77,3 +77,4 @@ nbdist/
 /.idea/
 /sakila-servlet.iml
 /nb-configuration.xml
+/log.out

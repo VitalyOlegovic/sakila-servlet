@@ -15,7 +15,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>TabellaAttori</servlet-name>
-        <url-pattern>/TabellaAttori</url-pattern>
+        <url-pattern>/attore/TabellaAttori</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>EliminazioneAttore</servlet-name>

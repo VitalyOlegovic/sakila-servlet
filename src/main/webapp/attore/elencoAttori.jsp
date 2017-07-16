@@ -8,6 +8,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Attori</title>
+        <style type = "text/css">
+            table, td, th { border: 1px solid gray }
+        </style>
     </head>
     <body>
         <h1>Attori</h1>
@@ -17,7 +20,7 @@
             pageContext.setAttribute("list", list);
         %>
         
-        <table border='1'>
+        <table>
         <thead>
             <tr>
                 <td>id</td>
