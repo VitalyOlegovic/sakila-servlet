@@ -9,7 +9,35 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Attori</title>
         <style type = "text/css">
-            table, td, th { border: 1px solid gray }
+            body {
+                margin-left: 10%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            table {
+                width: 50%;
+            }
+            table, td, th, thead {
+                border: 1px solid gray;
+                border-collapse: collapse;
+            }
+            thead {
+                font-weight: bold;
+            }
+            nav {
+                margin-bottom: 10px
+            }
+            @media screen and (max-width: 900px) {
+                body{
+                    margin-left: 10px;
+                    margin-top: 0px;
+                }
+
+                table{
+                    width: 100%;
+                }
+            }
+
         </style>
     </head>
     <body>
@@ -23,12 +51,12 @@
         <table>
         <thead>
             <tr>
-                <td>id</td>
-                <td>name</td>
-                <td>last name</td>
-                <td>last update</td>
-                <td>edit</td>
-                <td>delete</td>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Last name</td>
+                <td>Last update</td>
+                <td>Edit</td>
+                <td>Delete</td>
             </tr>
         </thead>
         <c:forEach items="${list}" var="element">

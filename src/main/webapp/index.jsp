@@ -2,6 +2,13 @@
 <html lang="it" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Videonoleggio Sakila</title>
+    <style>
+        body {
+            margin-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    </style>
 </head>
 <body>
 	<h1>Videonoleggio Sakila</h1>
